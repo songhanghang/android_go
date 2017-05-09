@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
         mTextView = (TextView) findViewById(R.id.mytextview);
 
         // Call Go function.
-        String greetings = Hello.greetings("Android and Gopher");
+        String greetings = Hello.greetings("http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json&ip=218.4.255.255");
         mTextView.setText(greetings);
     }
 }
